@@ -1,0 +1,30 @@
+body {
+font-family:'Times New Roman', Times, serif;
+background-color: rgb(168, 173, 150);
+font-size: 20px;
+color: rgb(0, 0, 0);
+}
+
+h1 {
+border-bottom: 5px solid black;
+color:red;
+font-size: 16px;
+}
+
+a:link {
+    color: orangered;
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(99, 36, 13);
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(251, 255, 0);
+    text-decoration: underline;
+}
+figcaption {
+    background-color:olivedrab;
+    color: white;
+    text-align: left;
+}
