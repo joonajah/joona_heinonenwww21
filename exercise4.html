@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <style>
+        .wrapper{
+            margin:auto;
+            width: 70%;
+        }
+        .topmenu {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 1em;
+            font-size: 50px;
+            color: white;
+            background-color: blue;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .flexgrowcon {
+            display: flex;
+            min-height: 400px;
+            align-items: stretch;
+            
+
+        }
+        leftbar {
+            background-color: yellow;
+            justify-content: center;
+            padding-top: 30px;
+            min-width: 300px;
+        }
+        article {
+            background-color: rgb(211, 211, 211);
+            padding-left: 30px;
+            padding-top: 20px;
+            font-size: larger;
+            justify-content: center;
+        }
+        footer {
+            background-color: black;
+            padding: 20px;
+            color: white;
+            height: 1em;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <header class="topmenu">
+        Heloust, welcome to my site
+    </header>
+    <div class="flexgrowcon">
+    <leftbar style="flex-grow: 2;">
+        <ul style="list-style: none;">
+        <li><A href="https://en.wikipedia.org/wiki/Grindcore" >Link1</A></li>
+        <li><A href="https://en.wikipedia.org/wiki/Shigesato_Itoi" >Link2</A></li>
+        <li><A href="https://en.wikipedia.org/wiki/The_Big_Lebowski" >Link3</A></li>
+         </ul>
+
+        </leftbar>
+
+        <article style="flex-grow: 6;">
+        
+            <h3>Yes</h3>
+            <p>Yes are an English progressive rock band formed in London in 1968 by singer Jon Anderson, bassist Chris Squire, guitarist Peter Banks, keyboardist Tony Kaye, and drummer Bill Bruford. The band has undergone numerous formations throughout its history; nineteen musicians have been full-time members. Since June 2015, it has consisted of guitarist Steve Howe, drummer Alan White, keyboardist Geoff Downes, singer Jon Davison, and bassist Billy Sherwood. Yes have explored several musical styles over the years, and are most notably regarded as progressive rock pioneers.</p>
+        </article>
+    </div>
+    <footer>
+        This thing right here is a piece of text which contains important information such as: yes, this is dog.
+    </footer>
+</div>
+</body>
+</html>

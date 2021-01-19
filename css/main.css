@@ -1,0 +1,18 @@
+table {
+    background-color:rgb(226, 224, 222)
+
+}
+figcaption {
+    background-color: rgb(0, 0, 0);
+    color:rgb(124, 160, 95);
+    font-family:cursive;
+}
+button {
+    background-color:rgb(35, 63, 63);
+    color:rgb(206, 205, 200);
+    font-family: cursive;
+}
+footer {
+    font-size: 25px;
+    font-family: cursive;
+}
